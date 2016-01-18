@@ -10,8 +10,10 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/activation1" />
+            <option value="$PROJECT_DIR$/additionnal1" />
             <option value="$PROJECT_DIR$/app" />
-            <option value="$PROJECT_DIR$/javax.mail_1.5.5" />
+            <option value="$PROJECT_DIR$/mail" />
           </set>
         </option>
       </GradleProjectSettings>

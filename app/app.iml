@@ -98,7 +98,6 @@
     <orderEntry type="library" exported="" name="google-http-client-jackson2-1.20.0" level="project" />
     <orderEntry type="library" exported="" name="jackson-core-2.1.3" level="project" />
     <orderEntry type="library" exported="" name="google-api-client-android-1.20.0" level="project" />
-    <orderEntry type="library" exported="" name="javax.mail-api-1.5.5" level="project" />
     <orderEntry type="library" exported="" name="google-oauth-client-1.20.0" level="project" />
     <orderEntry type="library" exported="" name="play-services-identity-7.8.0" level="project" />
     <orderEntry type="library" exported="" name="jsr305-1.3.9" level="project" />
@@ -108,6 +107,8 @@
     <orderEntry type="library" exported="" name="appcompat-v7-23.0.1" level="project" />
     <orderEntry type="library" exported="" name="play-services-base-7.8.0" level="project" />
     <orderEntry type="library" exported="" name="support-annotations-23.0.1" level="project" />
-    <orderEntry type="module" module-name="javax.mail_1.5.5" exported="" />
+    <orderEntry type="module" module-name="activation1" exported="" />
+    <orderEntry type="module" module-name="mail" exported="" />
+    <orderEntry type="module" module-name="additionnal1" exported="" />
   </component>
 </module>

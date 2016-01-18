@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/GmailQuickstart.iml" filepath="$PROJECT_DIR$/GmailQuickstart.iml" />
+      <module fileurl="file://$PROJECT_DIR$/activation1/activation1.iml" filepath="$PROJECT_DIR$/activation1/activation1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/additionnal1/additionnal1.iml" filepath="$PROJECT_DIR$/additionnal1/additionnal1.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
-      <module fileurl="file://$PROJECT_DIR$/javax.mail_1.5.5/javax.mail_1.5.5.iml" filepath="$PROJECT_DIR$/javax.mail_1.5.5/javax.mail_1.5.5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mail/mail.iml" filepath="$PROJECT_DIR$/mail/mail.iml" />
     </modules>
   </component>
 </project>

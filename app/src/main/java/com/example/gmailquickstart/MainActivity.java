@@ -49,7 +49,7 @@ public class MainActivity extends Activity {
     static final int REQUEST_AUTHORIZATION = 1001;
     static final int REQUEST_GOOGLE_PLAY_SERVICES = 1002;
     private static final String PREF_ACCOUNT_NAME = "accountName";
-    private static final String[] SCOPES = { GmailScopes.GMAIL_LABELS };
+    private static final String[] SCOPES = { GmailScopes.MAIL_GOOGLE_COM /*was GMAIL_LABELS*/ };
 
     /**
      * Create the main activity.
@@ -163,8 +163,8 @@ public class MainActivity extends Activity {
             chooseAccount();
         } else {
             if (isDeviceOnline()) {
-                new MakeRequestTask(mCredential).execute();
-                //new SendEmailTask(mCredential).execute();
+                //new MakeRequestTask(mCredential).execute();
+                new SendEmailTask(mCredential).execute();
             } else {
                 mOutputText.setText("No network connection available.");
             }
